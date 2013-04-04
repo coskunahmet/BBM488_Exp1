@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Bil488_Experiment1</title>
+<link href="styles/index.css" rel="stylesheet" type="text/css" />
+<link href="styles/search.css" rel="stylesheet" type="text/css" />
+<link href="styles/twitter.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="http://use.edgefonts.net/sarina.js"></script>
+<script src="http://use.edgefonts.net/sansita-one.js"></script>
+<script src="scripts/createTweets.js"></script>
+<script src="scripts/searchTweets.js"></script>
+
+<div id="header">
+	<!--<span id="logo"></span>-->
+	<span id="instruction">This is a webpage for BBM488 class</span>
+</div>
+
+<div class="searchContainer">
+	<span> Refresh Period: </span>
+	<input id="refreshPeriod" type="text" name="refreshPeriod">
+	<span> Max Tweet:  </span>
+	<input id="maxTweetCount" type="text" name="maxTweetCount">
+
+
+	<form name="input" id="searchLabel">
+     	<span> Search:  </span>
+	<input id="searchString" type="text" name="searchString">
+      	<input id="submit" type="button" value="Submit" onclick="startSearching()" />
+	<input id="stop" type="button" value="Stop Refreshing" onclick="stopRefreshing()" />
+	</form>
+</div>
+
+<div class="tweets" id="tweets">
+	<div class="tweetsHeader">
+		Last Tweets
+	</div>
+	<div class="stream" id="stream">
+	</div>
+	<div class="tweetsFooter">
+		<span id="twitterBird"></span>
+	</div>
+</div>
+</div>
+</body>
+</html>

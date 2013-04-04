@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: #3B3B3B;
+    background: #c0deed;
+    margin: 0px;
+	font-size: 14px;
+}
+
+#header {
+margin: auto;
+width: 520px;
+text-align:center;
+padding-top:50px;
+padding-bottom: 50px;
+}
+
+#logo {
+display: block;
+background: url(images/logo.jpg);
+height: 227px;
+width: 150px;
+margin: 50px auto 50px auto;
+}
+
+#instruction {
+font-family: "Helvetica Neue", Arial, sans-serif;
+    color: #3B3B3B;
+    margin: 0px;
+
+font-size:30px;
+font-weight:bold;
+
+}
+
+p {
+margin: 0;
+}
+
+a {
+text-decoration: none;
+color: #3ebee9;
+text-shadow: 1px 1px 1px #fff;
+}

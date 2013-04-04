@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+.searchContainer {
+	width:520px;
+	margin-left:auto;
+	margin-right:auto;
+	overflow:hidden;
+	padding:10px;		
+	text-align:center;
+	font-family: sansita-one, serif;
+
+}
+
+#searchLabel {
+    font-family: sansita-one, serif;
+    font-size: 20px;
+    margin: 0;
+	text-align:center
+    float: left;
+	font-weight:bold;
+}
+
+#submit {
+	font-family: sansita-one, serif;
+	font-size: 15px;
+	font-weight:bold;
+}
+
+#searchString {
+	font-family: sansita-one, serif;
+	font-size: 15px;
+	padding-left: 10px;
+}
+
+#stop {
+	font-size: 15px;
+	font-family: sansita-one, serif;
+	font-weight:bold;
+
+}
